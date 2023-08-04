@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"go_main/functions/quadratic"
+	quadratic "github.com/Giovanni0114/gio_go_playground/functions/quadratic"
 )
 
 func hello(name string) {
@@ -15,6 +15,6 @@ func main() {
 	hello("Gio")
 
 	// a := quadratic{1, 2, 3}
-
-	println(a.delta())
+	quadratic.
+		// println(a.delta())
 }
